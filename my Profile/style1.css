@@ -1,0 +1,87 @@
+body {
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(97, 18, 121, 0.836);
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(245, 129, 235);
+    
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: left;
+    color: rgba(233, 190, 224, 0.836);
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    color:rgba(172, 147, 10, 0.836);
+    width: 100%;
+    top: 0%;
+    
+}
+.name{
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color:#dda1ec;
+    text-shadow: rgb(123, 210, 231) 1px 0 10px;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+}
+.name2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    text-shadow: rgb(238, 107, 199) 1px 0 10px;
+    color:#bd82ee;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+
+.middle{
+    background-color: rgb(241, 68, 227);
+    height: 300px;
+    
+}
+.foot{
+    background-color: rgba(177, 10, 192, 0.959);
+    height: 250px;
+    margin: 0;
+    font-size: medium;
+    
+    
+}
+
+.pic1 {
+
+    width: 500px;
+    height: 500px;
+    object-fit:contain;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(197, 25, 174);
+    
+}
+.pic3 {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    float: left;
+    shape-outside: content-box;
+    
+}
+.foot img{
+    height: 30px;
+    position: relative;
+    top: 4px;
